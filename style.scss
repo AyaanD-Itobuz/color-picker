@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 100%;
+    gap: 600px;
+
+    .container-top {
+        display: flex;
+        gap: 1000px;
+        justify-content: space-between;
+    }
+
+    .container-bottom {
+        display: flex;
+        gap: 1000px;
+        justify-content: space-between;
+    }
+
+    #aqua {
+        padding: 20px;
+        background-color: bisque;
+        cursor: pointer;
+    }
+
+    #blue {
+        padding: 20px;
+        background-color: chocolate;
+        cursor: pointer;
+    }
+
+    #grey {
+        padding: 20px;
+        background-color: darkcyan;
+        cursor: pointer;
+    }
+
+    #green {
+        padding: 20px;
+        background-color: yellowgreen;
+        cursor: pointer;
+    }
+}
